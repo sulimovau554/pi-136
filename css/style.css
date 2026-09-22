@@ -5,11 +5,11 @@
 
 html {
     font-size: 1em;
-    font-family: "Oswald", sans-serif;
+    font-family: "Pattaya", sans-serif;
 }
 
 header {
-    background-color: aqua;
+    background-color: rgb(120, 200, 219);
     text-align: center ;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -21,7 +21,7 @@ footer {
 }
 
 #about {
-    background-color: bisque;
+    background-color: rgb(180, 251, 253);
     padding: 20px;
     text-align: center;
 }
@@ -53,4 +53,10 @@ nav ul {
     gap: 30px;
     justify-content: center;
 
+}
+
+#content {
+    background-color: rgb(180, 251, 253);
+    padding: 20px;
+    text-align: center;
 }
