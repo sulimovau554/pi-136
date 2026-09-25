@@ -16,7 +16,7 @@ header {
 }
 
 footer {
-    background-color: aquamarine;
+    background-color: rgb(106, 217, 231);
     padding: 20px 20px;
 }
 
@@ -27,7 +27,7 @@ footer {
 }
 
 #articles {
-    background-color: rgb(54, 35, 6);
+    background-color: rgb(116, 181, 211);
     padding: 20px;
 }
 p {
@@ -56,6 +56,24 @@ nav ul {
 }
 
 #content {
+    background-color: rgb(180, 251, 253);
+    padding: 20px;
+    text-align: center;
+}
+
+#content2 {
+    background-color: rgb(180, 251, 253);
+    padding: 20px;
+    text-align: center;
+}
+
+#content3 {
+    background-color: rgb(180, 251, 253);
+    padding: 20px;
+    text-align: center;
+}
+
+#content4 {
     background-color: rgb(180, 251, 253);
     padding: 20px;
     text-align: center;
