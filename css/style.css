@@ -29,6 +29,7 @@ footer {
 #articles {
     background-color: rgb(116, 181, 211);
     padding: 20px;
+    color: black;
 }
 p {
     text-align: justify;
@@ -83,4 +84,119 @@ nav ul {
     background-color: rgb(180, 251, 253);
     padding: 20px;
     text-align: center;
+}
+
+nav a:visited {
+    color: rgb(3, 3, 3);
+}
+nav a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+nav a:focus {
+    color: rgb(212, 7, 7);
+    transform: scale(2);
+}
+
+nav a:active {
+    color: gold;
+}
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.8s;
+}
+
+/*#articles li:nth-child(3n+2) {
+    background-color: rgb(112, 111, 111) ;
+}*/
+
+h2::after {
+    content: "ADD";
+    font-size: 12px;
+    margin-left: 10px;
+    color: red;
+}
+
+.bi-apple-music {
+    color: rgb(253, 253, 253);
+    font-size: 50px;
+}
+
+/*#articles a::after {
+    content: "\F65E";
+    font-family: bootstrap-icons;
+    color: blue;
+    margin-bottom: 20px;
+    text-decoration: none ;
+}*/
+
+/*-----Верстка формы------*/
+
+.form-reg {
+    width: 250px;
+    margin: 50px auto;
+    background-color: rgb(79, 129, 187);
+    border-radius: 25px;
+    padding: 25px;
+    text-align: center;
+}
+
+input {
+    background-color: rgb(200, 242, 255);
+    border: darkblue 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+}
+
+input[type=submit]:hover {
+    background-color: darkblue;
+    cursor: pointer;
+    color: white;
+}
+
+input[type=reset]:hover {
+    background-color: darkblue;
+    cursor: pointer;
+    color: white;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    accent-color: red;
+}
+
+select {
+    background-color: rgb(200, 242, 255);
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+}
+
+textarea {
+    background-color: rgb(200, 242, 255);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+label:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+#articles a:hover {
+    color: white;
+}
+
+footer a:hover {
+    color: white
+}
+
+section a::after{
+    content: "ВАЖНО!";
+    font-size: 20px;
+    margin-left: 5px;
+    color: red;
 }
