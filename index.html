@@ -25,9 +25,10 @@
                     <a href="#about">О жизни Грейс</a>
                 </li>
                 <li><a href="#articles">Статьи Грейс</a></li>
-                <li>
-                    <a href="#registration">Регистрация</a>
-                </li>
+
+                <li><a href="#registration">Регистрация</a></li>
+
+                <li><a href="#feedback">Обратная связь</a></li>
             </ul>
         </nav>
 
@@ -42,6 +43,11 @@
             </a>
 
             <blockquote>„Меня всегда больше интересовало будущее, чем прошлое“</blockquote>
+
+            <p>Грейс Хоппер была американским учёным и программистом. Она внесла большой вклад в развитие языков программирования.</p>
+
+            <p lang="en">Grace Hopper was an American computer scientist and programmer. She made a great contribution to the development of programming languages.</p>
+
 
             <p>Грейс Хоппер — американская учёная и коммодор флота США, разработчица исторически первого компилятора.
                 Была одной из первых, кто писал программы для гарвардского компьютера Марк I; развила концепцию
@@ -77,6 +83,7 @@
                     <a href="article5.html">7</a>
                 </li>
             </ol>
+
         </section>
 
         <section id="registration">
@@ -113,6 +120,72 @@
         </section>
 
     </main>
+
+    <section id="feedback">
+    <h2>Обратная связь</h2>
+
+    <form id="contact-form" action="#" method="post">
+
+        <div class="form__item">
+            <label for="name">Имя:</label>
+            <br>
+            <input type="text" id="name" name="name"
+                 placeholder="Введите ваше имя" required>
+        </div>
+
+        <div class="form__item">
+            <label for="email">E-mail:</label>
+            <br>
+            <input type="email" id="email" name="email"
+                 placeholder="Введите ваш E-mail" required>
+        </div>
+
+        <div class="form__item">
+            <label for="topic">Тема обращения:</label>
+            <br>
+            <select id="topic" name="topic" required>
+                <option value="">Выберите тему</option>
+                <option value="question">Вопрос</option>
+                <option value="suggestion">Предложение</option>
+                <option value="other">Другое</option>
+            </select>
+        </div>
+
+        <div class="form__item">
+            <label for="message">Текст сообщения:</label>
+            <br>
+            <textarea id="message" name="message"
+                     placeholder="Введите текст сообщения"
+                     rows="5" required></textarea>
+        </div>
+
+        <div class="form__item">
+            <label for="date">Дата обращения:</label>
+            <br>
+            <input type="date" id="date" name="date">
+        </div>
+
+        <div class="form__item">
+            <label for="phone">Телефон:</label>
+            <br>
+            <input type="tel" id="phone" name="phone"
+                 placeholder="Введите номер телефона">
+        </div>
+
+        <div class="form__item">
+            <input type="checkbox" id="agreement"
+                 name="agreement" required>
+            <label for="agreement">
+                Согласен с обработкой данных
+            </label>
+        </div>
+
+        <div class="form__item">
+            <input type="submit" value="Отправить">
+        </div>
+
+    </form>
+</section>
 
     <footer>
         <p>&copy; Сулимова Юлия, 2026 г.</p>
