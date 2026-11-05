@@ -225,11 +225,12 @@ footer a:hover {
     color: white
 }
 
-section a::after{
+section li:last-child a::after{
     content: "ВАЖНО!";
+    font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
-    margin-left: 5px;
-    color: red;
+    margin-left: 10px;
+    color: rgb(189, 39, 189);
 }
 
 #articles li:nth-child(2n) {
